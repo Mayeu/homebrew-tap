@@ -30,11 +30,6 @@ class Borgmatic < Formula
     sha256 "3ef3092145e9b70e3ddd2c7ad59bdd0252a94dfe3949721633e41344de00a6bf"
   end
 
-#  resource "ruamel.ordereddict" do
-#    url "https://files.pythonhosted.org/packages/b1/8f/3b1b407ff387e006a4a33e62182b212077bed41676451d60327955a50c3c/ruamel.ordereddict-0.4.13.tar.gz"
-#    sha256 "bf0a198c8ce5d973c24e5dba12d3abc254996788ca6ad8448eabc6aa710db149"
-#  end
-
   resource "ruamel.yaml" do
     url "https://files.pythonhosted.org/packages/95/be/1a63cdb6053aeed8a6de1bcbca02c54e7746383fbe0facfb798e69a66d67/ruamel.yaml-0.15.87.tar.gz"
     sha256 "a736ab1d8c2d5566254a1a2ee38e7c5460520bcccd4a8f0feb25a4463735e5a7"
