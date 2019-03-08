@@ -1,6 +1,7 @@
-# homebrew-mayeu
+# My personal tap
 
-Some personal formula for Homebrew.
+This tap contains formula for tools that I used but are not in the core tap,
+or for some of my personal scripts.
 
 You can install them directly via:
 ```
@@ -9,19 +10,20 @@ $ brew install mayeu/mayeu/<name of the formula>
 
 ## Tools made by others in this tap
 
-- [beancount][b]: A double-entry bookkeeping computer language that lets you
+- [beancount][b]: a double-entry bookkeeping computer language that lets you
   define financial transaction records in a text file
-- [beancount-script][bs]: Scripts I use for my accounting using beancount
-- [borgmatic][bo]: A wrapper script for Borg backup software that creates and
+- [beancount-script][bs]: scripts I use for my accounting using beancount
+- [borgmatic][bo]: a wrapper script for Borg backup software that creates and
   prunes backups
 - [fava][f]: Web interface for Beancount
 - [flock][fl]: a portable implementation of the linux flock command working
   everywhere
-  - :warning: It is using the commit
+  - :warning: This formula use the commit
     [4148b86be](https://github.com/discoteq/flock/tree/4148b86be01bbfad45ceef1f835cc12ff395d3c0)
     since the official brew package is not yet up-to-date (and does not support
     `-x` option)
-- [run-one][r]: Run one instance of some unique combination of command and arguments at a time
+- [run-one][r]: run one instance of some unique combination of command and
+  arguments at a time
 
 [b]: http://furius.ca/beancount/
 [bs]: https://github.com/Mayeu/beancount-scripts
