@@ -7,7 +7,7 @@ You can install them directly via:
 $ brew install mayeu/mayeu/<name of the formula>
 ```
 
-Here is the list of formula in this tap:
+## Tools made by others in this tap
 
 - [beancount][b]: A double-entry bookkeeping computer language that lets you
   define financial transaction records in a text file
@@ -29,3 +29,11 @@ Here is the list of formula in this tap:
 [f]: https://beancount.github.io/fava/
 [fl]: https://github.com/discoteq/flock
 [r]: https://launchpad.net/run-one
+
+## Personal tools in this tap
+
+*Not that a lot of those a proof-of-concept or work in progress. Install with care.*
+
+- [habitica-cli][h]: a small CLI for habitica
+
+[h]: https://github.com/Mayeu/habitica-cli
