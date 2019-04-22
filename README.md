@@ -5,7 +5,12 @@ or for some of my personal scripts.
 
 You can install them directly via:
 ```
-$ brew install mayeu/mayeu/<name of the formula>
+$ brew install mayeu/tap/<name of the formula>
+```
+
+Or you can register the tap via:
+```
+$ brew tap mayeu/tap
 ```
 
 ## Tools made by others in this tap
