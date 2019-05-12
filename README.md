@@ -27,6 +27,7 @@ $ brew tap mayeu/tap
     [4148b86be](https://github.com/discoteq/flock/tree/4148b86be01bbfad45ceef1f835cc12ff395d3c0)
     since the official brew package is not yet up-to-date (and does not support
     `-x` option)
+- [lmt][l]: a literate markdown tangle in go
 - [run-one][r]: run one instance of some unique combination of command and
   arguments at a time
 
@@ -35,6 +36,7 @@ $ brew tap mayeu/tap
 [bo]: https://torsion.org/borgmatic/
 [f]: https://beancount.github.io/fava/
 [fl]: https://github.com/discoteq/flock
+[l]: https://github.com/driusan/lmt/
 [r]: https://launchpad.net/run-one
 
 ## Personal tools in this tap
