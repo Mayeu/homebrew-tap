@@ -154,6 +154,11 @@ class BeancountScripts < Formula
     sha256 "de9529817c93f27c8ccbfead6985011db27bd0ddfcdb2d86f3f663385c6a9c22"
   end
 
+  resource "smart_importer" do
+    url "https://files.pythonhosted.org/packages/2d/77/0d73a4cca9f4a08d91c1a44669964f6c3bc8a9763a8f6051072e63da6794/smart_importer-0.1.tar.gz"
+    sha256 "10b65e3d50dcc6ef9a1dd4f78d2b1e5770ed5f92c233a42f80f7acc567b87129"
+  end
+
   def install
     virtualenv_install_with_resources
   end
