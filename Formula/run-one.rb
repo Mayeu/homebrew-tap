@@ -7,7 +7,7 @@ class RunOne < Formula
   url "https://launchpad.net/run-one/trunk/1.17/+download/run-one_1.17.orig.tar.gz"
   sha256 "b7c9b257b52f29ba0d923a4dfee4edd47332ebeca0200c65f309eb6ae33f701f"
 
-  depends_on "mayeu/mayeu/flock" => :run
+  depends_on "mayeu/tap/flock" => :run
 
   def install
     # Patch md5sum to be md5
